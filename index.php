@@ -1,5 +1,5 @@
 <?php
 include("./src.php");
 $use = new messenger();
-$sa = $use->getid("muratboz");
-echo $sa;
+$result = $use->getid("muratboz");
+echo $result;
